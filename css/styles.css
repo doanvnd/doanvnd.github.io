@@ -7,6 +7,35 @@
     overflow: scroll;
     width: 100%;
     margin-bottom: 100px;
+    position: relative;
+}
+#bg {
+    position: absolute;
+    z-index: -1;
+}
+@media (min-width:769999999px)  {
+    body {
+        background: #090909;
+    }
+    #bg {
+        width: 100%;
+        min-height: 1000px;
+        background: url(../img/bg.png) top center ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: 20;
+        pointer-events: none;
+    }
+    #container {
+        width: 618px;
+        height: 584px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        margin: auto;
+        top: 77px
+    }
 }
 
 #capture {
@@ -62,10 +91,6 @@
 .slogen {
     font-style: italic;
     font-weight: normal;
-}
-
-#panel_menu {
-    max-height: 375px;
 }
 
 *[contenteditable="true"] {

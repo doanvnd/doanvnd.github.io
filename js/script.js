@@ -96,6 +96,8 @@ function initEvent() {
         $('.' + class_selected).css('font-family', font[0]);
     });
 
+    $("#bg").css('min-height', $( window ).height() + "px");
+
 }
 
 function tapRotateHandler(event) {
