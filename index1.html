@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tạo Cáo Phó Trực Tuyến</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/fontselect.css?v1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+<div id="panel_menu" class="fixed-bottom">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Công Cụ
+                <button id="switch" class="btn btn-danger float-right">Đóng</button>
+            </h5>
+            <div id="panel_container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <h6 class="card-subtitle mb-2 text-muted">Font chữ</h6>
+                            <input id="font1" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h6 class="card-subtitle mb-2 text-muted">Hình ảnh (cao: 210px - rộng: 185px)</h6>
+                        <div class="form-group">
+                            <input type="file" id="file" name="file"/>
+                            <input type="button" class="btn btn-info" value="Upload" id="but_upload">
+                        </div>
+                    </div>
+                </div>
+                <div id="group_button">
+                    <button id="download" class="btn btn-primary">Xuất file</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="capture">
+    <div id="frame"></div>
+    <div id="avatar"></div>
+    <div id="content">
+        <h4 id="title" class="text-center">Trong niềm tin vào Chúa Kitô Phục Sinh<br></h4>
+        <h4 id="title" class="text-center"><span id="department" class="text-center">BAN TRUYỀN THÔNG GIÁO HỌ MÂN CÔI KÍNH BÁO</span>
+        </h4>
+        <h2 id="name" class="text-center">ÔNG MICAE VŨ ĐÌNH THÔNG</h2>
+        <div id="description" class="text-center">
+            Sinh năm 1976 - Tại GH. An Lộc - GX. Quần Phương - GP. Bùi Chu <br>
+            Hiện ở Giáo Họ Mân Côi - Giáo Xứ Quảng Nhiêu - Giáo Phận Ban Mê Thuột<br>
+            Thôn 1 - Xã Cưsuê - Huyện Cưmgar - Tỉnh Daklak<br>
+            Sau khi hoàn tất cuộc lữ hành Đức Tin nơi trần thế,<br>
+            Ông đã được Chúa gọi về, hồi 22g30p ngày 13/08/2019
+        </div>
+        <h3 id="year_old" class="text-center">Hưởng dương 43 tuổi</h3>
+        <h5>Ngày 15/08/2019 - 14:00</h5>
+        <p>
+            - nghi thức khâm liệm, phát tang và nhập quan <br>
+            - Sau đó quý cộng đoàn, viếng và cầu nguyện cho linh hồn ông Micae
+        </p>
+        <h5>Ngày 16/08/2019 - 08h00</h5>
+        <p>
+            - Thánh Lễ an táng tại tư gia<br>
+            - Sau Thánh Lễ an táng, thi hài ông Micae được đưa về nơi an nghỉ cuối cùng tại nghĩa trang
+            Xã Cưsuê
+        </p>
+
+        <div id="slogen">"Xin quý cộng đoàn hiệp ý cầu nguyện cho ông Micae
+            Nguyện xin Thiên Chúa là Cha rất nhân từ sớm đưa linh hồn ông Micae
+            về hưởng tôn nhan Chúa!"
+        </div>
+    </div>
+</div>
+<br>
+<hr style="clear:both">
+<br>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="js/jquery.fontselect.min.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
